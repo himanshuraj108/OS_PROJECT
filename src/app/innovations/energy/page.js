@@ -54,7 +54,7 @@ export default function EnergyEfficientSchedulingPage() {
           <h2 className="text-2xl font-bold mb-4 text-green-300">Implementation Examples</h2>
           <div className="space-y-6">
             <div>
-              <h3 className="text-xl font-semibold text-green-200">Android's Energy-Aware Scheduler (EAS)</h3>
+              <h3 className="text-xl font-semibold text-green-200">Android&apos;s Energy-Aware Scheduler (EAS)</h3>
               <p className="mb-2">
                 Android&apos;s EAS integrates with the Linux kernel to make energy-aware task placement decisions
                 across heterogeneous processor clusters (big.LITTLE architecture). By understanding the energy
