@@ -1,9 +1,10 @@
 "use client";
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import { usePathname, useSearchParams } from 'next/navigation';
 
-export default function PageTransition() {
+// Create a client component that uses the hooks
+function PageTransitionInner() {
   const [loading, setLoading] = useState(false);
   const pathname = usePathname();
   const searchParams = useSearchParams();
@@ -34,5 +35,14 @@ export default function PageTransition() {
         </svg>
       </div>
     </div>
+  );
+}
+
+// This is the main component that uses Suspense
+export default function PageTransition() {
+  return (
+    <Suspense fallback={null}>
+      <PageTransitionInner />
+    </Suspense>
   );
 } 
