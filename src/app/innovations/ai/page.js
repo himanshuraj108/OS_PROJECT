@@ -54,24 +54,24 @@ export default function AIResourceAllocationPage() {
           <h2 className="text-2xl font-bold mb-4 text-purple-300">Real-world Implementation Examples</h2>
           <div className="space-y-4">
             <div>
-              <h3 className="text-xl font-semibold text-purple-200">Google's Borg System</h3>
+              <h3 className="text-xl font-semibold text-purple-200">Google&apos;s Borg System</h3>
               <p>
                 Google uses machine learning to predict resource requirements for services running on its Borg cluster
                 management system, allowing for more efficient packing of workloads and better resource utilization.
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-purple-200">Microsoft's AutoPilot</h3>
+              <h3 className="text-xl font-semibold text-purple-200">Microsoft&apos;s AutoPilot</h3>
               <p>
                 Microsoft employs reinforcement learning for resource management in data centers, optimizing for
                 throughput, latency, and energy efficiency simultaneously.
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-purple-200">DeepMind's AI for Datacenter Cooling</h3>
+              <h3 className="text-xl font-semibold text-purple-200">DeepMind&apos;s AI for Datacenter Cooling</h3>
               <p>
                 While focused on cooling rather than CPU scheduling, this demonstrates how AI can optimize resource
-                allocation, reducing energy consumption by 40% in Google's data centers.
+                allocation, reducing energy consumption by 40% in Google&apos;s data centers.
               </p>
             </div>
           </div>
@@ -90,7 +90,7 @@ export default function AIResourceAllocationPage() {
             <div>
               <h3 className="text-xl font-semibold text-purple-200">Explainability</h3>
               <p>
-                Many advanced ML models operate as "black boxes," making it difficult to understand why certain scheduling
+                Many advanced ML models operate as &quot;black boxes,&quot; making it difficult to understand why certain scheduling
                 decisions were made, which can be problematic for debugging and system reliability.
               </p>
             </div>

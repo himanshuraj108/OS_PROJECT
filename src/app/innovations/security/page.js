@@ -71,7 +71,7 @@ export default function SecurityFocusedSchedulingPage() {
             <div>
               <h3 className="text-xl font-semibold text-blue-200">Cache Partitioning</h3>
               <p>
-                Cache-aware security scheduling prevents processes from observing each other's 
+                Cache-aware security scheduling prevents processes from observing each other&apos;s 
                 cache access patterns. By allocating specific cache regions to different security 
                 domains and carefully scheduling cache flushes between context switches, the system 
                 can mitigate cache-based side-channel attacks like PRIME+PROBE and FLUSH+RELOAD 
@@ -107,7 +107,7 @@ export default function SecurityFocusedSchedulingPage() {
               <h3 className="text-xl font-semibold text-blue-200">Virtual Machine Hypervisors</h3>
               <p>
                 Cloud providers use advanced scheduling techniques to prevent cross-VM attacks. 
-                VM-aware schedulers enforce isolation between different customers' virtual machines, 
+                VM-aware schedulers enforce isolation between different customers&apos; virtual machines, 
                 preventing information leakage through shared hardware resources and mitigating the 
                 risk of VM escape vulnerabilities that could compromise the entire host system.
               </p>
@@ -141,7 +141,7 @@ export default function SecurityFocusedSchedulingPage() {
               <h3 className="text-xl font-semibold text-blue-200">Hardware Limitations</h3>
               <p>
                 Many security vulnerabilities stem from shared hardware resources (caches, branch 
-                predictors, execution units) that aren't designed with security isolation in mind. 
+                predictors, execution units) that aren&apos;t designed with security isolation in mind. 
                 Schedulers must work around these limitations, often sacrificing performance or 
                 requiring specialized hardware support for full protection.
               </p>

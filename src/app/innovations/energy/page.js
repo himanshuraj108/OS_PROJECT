@@ -56,7 +56,7 @@ export default function EnergyEfficientSchedulingPage() {
             <div>
               <h3 className="text-xl font-semibold text-green-200">Android's Energy-Aware Scheduler (EAS)</h3>
               <p className="mb-2">
-                Android's EAS integrates with the Linux kernel to make energy-aware task placement decisions
+                Android&apos;s EAS integrates with the Linux kernel to make energy-aware task placement decisions
                 across heterogeneous processor clusters (big.LITTLE architecture). By understanding the energy
                 characteristics of different cores and the performance requirements of tasks, it can intelligently
                 assign processes to the most efficient cores for the workload.
@@ -67,7 +67,7 @@ export default function EnergyEfficientSchedulingPage() {
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-green-200">Intel's Speed Shift Technology</h3>
+              <h3 className="text-xl font-semibold text-green-200">Intel&apos;s Speed Shift Technology</h3>
               <p>
                 Modern Intel processors implement hardware-controlled P-states that allow the CPU to rapidly adjust
                 its operating frequency based on workload demands. This technology, combined with OS-level scheduling

@@ -50,7 +50,7 @@ export default function QuantumOSPage() {
               <p>
                 Quantum computing leverages the principles of quantum mechanics to process information in ways that
                 classical computers cannot. Instead of using bits that can be either 0 or 1, quantum computers
-                use quantum bits or "qubits" that can exist in multiple states simultaneously due to superposition.
+                use quantum bits or &quot;qubits&quot; that can exist in multiple states simultaneously due to superposition.
               </p>
               
               <p>
@@ -102,7 +102,7 @@ export default function QuantumOSPage() {
                 <div className="bg-white/5 p-4 rounded-lg">
                   <h4 className="font-bold text-lg text-purple-400 mb-2">Error Budget-Based Scheduling</h4>
                   <p>
-                    Allocates an "error budget" to each quantum task and schedules operations to 
+                    Allocates an &quot;error budget&quot; to each quantum task and schedules operations to 
                     minimize overall error rates across the system.
                   </p>
                 </div>

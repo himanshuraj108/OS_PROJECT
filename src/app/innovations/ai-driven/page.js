@@ -67,7 +67,7 @@ export default function AIDrivenOSPage() {
                 <div className="bg-white/5 p-6 rounded-lg">
                   <h4 className="font-bold text-lg text-purple-400 mb-2">Time Series Forecasting</h4>
                   <p>
-                    Predictive models that analyze historical resource usage patterns to forecast future demand, allowing the OS to proactively allocate resources before they're needed.
+                    Predictive models that analyze historical resource usage patterns to forecast future demand, allowing the OS to proactively allocate resources before they&apos;re needed.
                   </p>
                 </div>
                 
@@ -127,7 +127,7 @@ export default function AIDrivenOSPage() {
               <div>
                 <h3 className="text-lg font-bold text-cyan-400 mb-2">Computational Overhead</h3>
                 <p className="text-gray-300">
-                  Ensuring that the ML algorithms themselves don't consume excessive resources, negating the benefits they provide through optimized allocation.
+                  Ensuring that the ML algorithms themselves don&apos;t consume excessive resources, negating the benefits they provide through optimized allocation.
                 </p>
               </div>
               

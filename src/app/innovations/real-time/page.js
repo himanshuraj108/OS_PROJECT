@@ -115,7 +115,7 @@ export default function RealTimeOSPage() {
               <div>
                 <h3 className="text-lg font-bold text-cyan-400 mb-2">Deadline</h3>
                 <p className="text-gray-300">
-                  The time by which a task must complete execution. Can be specified as absolute time or relative to the task's arrival.
+                  The time by which a task must complete execution. Can be specified as absolute time or relative to the task&apos;s arrival.
                 </p>
               </div>
               
