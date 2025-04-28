@@ -60,7 +60,7 @@ export default function Footer() {
             onMouseLeave={() => setShowDetails(false)}
           >
             <p className="text-gray-300 text-sm">
-              Developed by <span className="text-cyan-400 font-semibold">Himanshu Raj</span>
+              Developed by <span className="text-cyan-400 font-semibold"></span>
             </p>
             
             {/* Tech details on hover */}
